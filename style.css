@@ -4,7 +4,7 @@
     box-shadow: 0px 0px 40px 15px rgb(114, 110, 138);
 }
 
-#display{
+#output{
     text-align: right;
     height: 70px;
     line-height: 70px;
