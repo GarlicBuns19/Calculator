@@ -1,19 +1,11 @@
-function buttonDisplay(num){
-    document.getElementById('output').innerHTML += num;
+function buttonDisplay(value){
+    document.getElementById("result").value += value;
 }
 function buttonClear(){
-    document.getElementById('output').innerHTML = '';
+    document.getElementById("result").value = '';
 }
-
-    let firstOperand = buttonDisplay(a,);
-
-    let operator = document.querySelector('#multiply','#backwards','#minus','#add');
-
-    let secondOperand = buttonDisplay('',b);
-
-    switch(operator) {
-        case '+':
-            total = eval(fstOp.concat(ops,secOp));
-    }
-
-    document.getElementById('#equal')
+function calculate(){
+    var a = document.getElementById("result").value;
+    var b = eval(a);
+    document.getElementById("result").value = b;
+}

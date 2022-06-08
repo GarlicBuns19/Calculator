@@ -1,16 +1,17 @@
 .container{
-    max-width: 400px;
+    max-width: 250px;
     margin: 10vh auto 0 auto;
     box-shadow: 0px 0px 40px 15px rgb(114, 110, 138);
 }
 
-#output{
+#result{
     text-align: right;
-    height: 70px;
+    height: 50px;
     line-height: 70px;
     padding: 16px 8px;
     font-size: 25px;
-    width: 300px;
+    width: 230px;
+
 }
 
 .buttons{
